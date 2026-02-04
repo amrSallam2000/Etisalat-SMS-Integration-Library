@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Configuration file example for Etisalat SMS Integration
+  
+  ⚠️ Very Important:
+  1. Copy this file to Web.config or App.config in your project
+  2. Remove ".example" from the filename
+  3. Fill in the actual values (do not publish real values to GitHub!)
+  4. Add Web.config to .gitignore
+-->
+<configuration>
+	<appSettings>
+		<!-- ========== Etisalat API Credentials ========== -->
+
+		<!-- Username -->
+		<add key="EtisalatUsername" value="" />
+
+		<!-- Password -->
+		<add key="EtisalatPassword" value="" />
+
+		<!-- API Key (should be a GUID) -->
+		<add key="EtisalatApiKey" value="" />
+
+		<!-- Environment: true = Production, false = Testing -->
+		<add key="EtisalatIsProduction" value="false" />
+
+
+		<!-- ========== Certificate Settings (Optional) ========== -->
+
+		<!-- Certificate file path -->
+		<add key="CertificatePath" value="~/Certificates/YourCertificate.pfx" />
+
+		<!-- Or use filename only if it's an Embedded Resource -->
+		<add key="CertificateFileName" value="YourCertificate.pfx" />
+
+		<!-- Or full Resource name -->
+		<add key="CertificateResourceName" value="YourNamespace.Certificates.YourCertificate.pfx" />
+
+		<!-- Certificate password -->
+		<add key="CertPassword" value="" />
+
+		<!-- Use Embedded Resource (true) or external file (false) -->
+		<add key="UseEmbeddedCertificate" value="false" />
+
+		<!-- Bypass server certificate validation (for development only - do not use in production!) -->
+		<add key="BypassCertificateValidation" value="false" />
+
+
+		<!-- ========== Default SMS Settings ========== -->
+
+		<!-- Default Authorization Token -->
+		<add key="DefaultAuthToken" value="" />
+
+		<!-- Default Template ID -->
+		<add key="DefaultTemplateId" value="" />
+
+		<!-- Delay between requests in bulk sending (in milliseconds) -->
+		<add key="BulkSmsDelayMs" value="1000" />
+
+		<!-- Request timeout (in seconds) -->
+		<add key="RequestTimeoutSeconds" value="30" />
+	</appSettings>
+</configuration>

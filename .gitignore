@@ -1,0 +1,99 @@
+# ========== Etisalat SMS Integration - Security ==========
+
+# ❌ لا تنشر هذه الملفات أبداً!
+*.pfx
+*.p12
+*.cer
+*.key
+*.pem
+
+# Certificates folder
+Certificates/
+**/Certificates/
+
+# Configuration files with secrets
+Web.config
+App.config
+appsettings.json
+appsettings.*.json
+appsettings.Production.json
+appsettings.Development.json
+
+# Local configuration
+*.config.user
+*.config.local
+Web.config.local
+
+# ========== Visual Studio ==========
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio cache/options directory
+.vs/
+
+# Visual Studio Trace Files
+*.e2e
+
+# ========== NuGet ==========
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# ========== ASP.NET ==========
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Publish profiles
+PublishProfiles/
+*.pubxml
+*.publishproj
+
+# ========== Rider ==========
+.idea/
+*.sln.iml
+
+# ========== VS Code ==========
+.vscode/
+
+# ========== Windows ==========
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ========== Mac ==========
+.DS_Store
+
+# ========== Logs ==========
+*.log
+logs/
+*.tmp
+
+# ========== Backup ==========
+*.bak
+*.backup
+*~
