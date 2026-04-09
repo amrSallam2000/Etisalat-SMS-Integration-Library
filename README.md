@@ -15,18 +15,7 @@ Professional and independent library for integrating with Etisalat SMS API, 100%
 
 ---
 
-## 📦 Installation
 
-### Method 1: NuGet Package (Coming Soon)
-```bash
-Install-Package Etisalat.SMS.Integration
-```
-
-### Method 2: Add files directly
-1. Copy `EtisalatSmsIntegration` folder to your project
-2. Add Reference to `Newtonsoft.Json`
-
----
 
 ## 🚀 Quick Start
 
@@ -284,14 +273,6 @@ Certificates/
 
 ---
 
-## 📞 Support
-
-For technical inquiries:
-- See [EXAMPLES.md](./EXAMPLES.md) for complete examples
-- See [API.md](./API.md) for full documentation
-- Open an Issue on GitHub
-
----
 
 ## 📄 License
 
